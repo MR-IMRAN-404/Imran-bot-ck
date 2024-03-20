@@ -1,0 +1,8 @@
+.upm/
+node_modules/
+.replit
+repli.nix
+.github/
+Nayan.md
+replit.nix
+.local/
