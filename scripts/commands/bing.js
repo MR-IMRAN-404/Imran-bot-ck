@@ -25,7 +25,7 @@ start: async function({ nayan, events, args, lang}) {
     const prompt = args.join(" ");
     if(!prompt) return nayan.reply(lang('missing'), events.threadID, events.messageID)
 
-  const rndm = ['1U-BNLfCJbd4Kqo2tvmHlFeYjIIOmbbJtu4qJtIlkP8N0fRZSCnXM9UggMtlAonZxHIz4to8HwRH5uo-zgt4BS9dC-5lVsaUdef2lODnaQF_8F60ZGYStqVJobpMCS-cpN2t-bDcTwVw61Kr6iCQiyNKmJxY8u4YSQlNnQKNDYGnC70QA5bmZM4LgR162saWHP-_0BSWihBkmWYiexZo98A','1C47d6qjFFUbERNKlBVCr4Dj4BP67AVnzRnNqHYJBLlTPcO2D_zHcqiKeS07T411-Rvy-S_XMtaXIcUWtyPDNZkKJJ2grC8hyER18EjtNPQUoyodkELpCMcuPQ1-sAsJrYp1sfd0aiZTm_BnUcREY8qeIF8g2TPHjQkdWHJxupDteo8aCHyi8DhsTGrjpjFq0WHkz-5kRWMlfZ7UHbMpXsQ','153jSbExzfFDUu9emh5VR-6JfFbvhom4rb1YCSngwN1pLSl8uTCasmlCBmHFVXNfBhrJ0-d82DC3Kzgo5D587VEZxB2-lguqnG7LJ40ThZFRcZ8o0X9TePDhv8_9IQoWx8g583k_dz12fVFcq3jHTCSs0QSjxnJzxp39eG_zYO3bh2EiBLzUxix3MFjcyieD2XeZm4eIrDq1ot8QQ8___qA'] // input your cookie hare
+  const rndm = ['1FFWNplL_By06yWUa6REpKP37oFQgyI98OhHqRXCqdwt-YggFGxn-6LQLEq4gum52uFyu9Qq7w7EK5nfGtQGxHnpaaEva4l_ma6F3L-LeCguoZWwdgjHNAHquoUo8T-6Onyuz58G5xYiAEBwypXu8T1fexzT-ySapiVoUpqp61YRjKQ9REFIHwiR1Azf_L0mwxfjzIpmKZNJK1SCo4XQEFA','1mxisjeiifkl8FZ7Ek5l6ODRs9awWxBBYHNyjqW2z6NbcRZNhBaADgbgpDMMLxGREkCOLkvf4lKcJcYdt_i-4Aq_8wmNXqRA3BLes8VbzGJz8-9OvWZYzCjtKBR10_Q5RM-yhNy4nAFCbxo8ygBOVLPe6byEzB5aXjZuAmQi7-ey_L3Lc7xeWFd49FU5yvNRzvWlUu3gLfjLzfUXSQSzMGg','10J32hGSY1BZuJhKFjoCxpsL4SLOzveI8uDftm_hnZJ_qr80z4wAp4qN0rM1ZHDeeCcbRQh8Bycsg_Q-8upT0YZjFmC4SvXixwsdT-P1H2fP5_GpuxE9b7JoWz7J-X-qJTJ2U6ZNKExFvc9rO521BNfEtUpVaVdp5ECZcLWfQJiUpf22xqQ1LY4Mr6p6fsNsiXgy8J6dSH1-7D9njh8loIQ'] // input your cookie hare
 
   var cookie = rndm[Math.floor(Math.random() * rndm.length)];
 
