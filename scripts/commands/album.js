@@ -52,27 +52,25 @@ module.exports.run = async function({
         if ("1" == a.body)
             var h = "https://alon-imran.onrender.com/status";
         else if ("2" == a.body)
-         var   h = "https://main--cheerful-sopapillas-0c55d5.netlify.app/video/anime";
+         var   h = "https://imran-api.onrender.com/video/anime";
         else if ("3" == a.body)
-         var   h = "https://main--cheerful-sopapillas-0c55d5.netlify.app/video/baby";
+         var   h = "https://imran-api.onrender.com/video/baby";
         else if ("4" == a.body)
-          var  h = "https://main--cheerful-sopapillas-0c55d5.netlify.app/video/crush";
+          var  h = "https://imran-api.onrender.com/video/crush";
         else if ("5" == a.body)
-          var  h = "https://main--cheerful-sopapillas-0c55d5.netlify.app/video/islam";
+          var  h = "https://imran-api.onrender.com/video/islam";
         else if ("6" == a.body)
-         var  h = "https://main--cheerful-sopapillas-0c55d5.netlify.app/video/sad";
+         var  h = "https://imran-api.onrender.com/video/sad";
          else if ("7" == a.body)
-         var  h = "https://main--cheerful-sopapillas-0c55d5.netlify.app/video/love";
+         var  h = "https://imran-api.onrender.com/video/love";
         else if ("8" == a.body)
          var  h = "https://netural-imran.onrender.com/status";
           else if ("9" == a.body)
-         var  h = "https://main--cheerful-sopapillas-0c55d5.netlify.app/video/horny";
+         var  h = "https://imran-api.onrender.com/video/horny";
          else if ("10" == a.body)
-         var  h = "https://main--cheerful-sopapillas-0c55d5.netlify.app/video/hot";
+         var  h = "https://imran-api.onrender.com/video/hot";
           else if ("11" == a.body)
-         var  h = "https://main--cheerful-sopapillas-0c55d5.netlify.app/video/item";
+         var  h = "https://imran-api.onrender.com/video/item";
         return { p, h };
     }
 };
-
-
