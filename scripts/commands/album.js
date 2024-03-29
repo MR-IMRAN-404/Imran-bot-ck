@@ -50,27 +50,27 @@ module.exports.run = async function({
     function linkanh() {
         const p = require("axios");
         if ("1" == a.body)
-            var h = "https://alon-imran.onrender.com/status";
+            var h = "de1.bot-hosting.net:22213/video/alon";
         else if ("2" == a.body)
-         var   h = "https://imran-api.onrender.com/video/anime";
+         var   h = "de1.bot-hosting.net:22213/video/anime";
         else if ("3" == a.body)
-         var   h = "https://imran-api.onrender.com/video/baby";
+         var   h = "de1.bot-hosting.net:22213/video/baby";
         else if ("4" == a.body)
-          var  h = "https://imran-api.onrender.com/video/crush";
+          var  h = "de1.bot-hosting.net:22213/video/crush";
         else if ("5" == a.body)
-          var  h = "https://imran-api.onrender.com/video/islam";
+          var  h = "de1.bot-hosting.net:22213/video/islam";
         else if ("6" == a.body)
-         var  h = "https://imran-api.onrender.com/video/sad";
+         var  h = "de1.bot-hosting.net:22213/video/sad";
          else if ("7" == a.body)
-         var  h = "https://imran-api.onrender.com/video/love";
+         var  h = "de1.bot-hosting.net:22213/video/love";
         else if ("8" == a.body)
-         var  h = "https://netural-imran.onrender.com/status";
+         var  h = "de1.bot-hosting.net:22213/video/netural";
           else if ("9" == a.body)
-         var  h = "https://imran-api.onrender.com/video/horny";
+         var  h = "de1.bot-hosting.net:22213/video/horny";
          else if ("10" == a.body)
-         var  h = "https://imran-api.onrender.com/video/hot";
+         var  h = "de1.bot-hosting.net:22213/video/hot";
           else if ("11" == a.body)
-         var  h = "https://imran-api.onrender.com/video/item";
+         var  h = "de1.bot-hosting.net:22213/video/item";
         return { p, h };
     }
 };
