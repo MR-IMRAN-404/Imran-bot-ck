@@ -20,7 +20,7 @@ module.exports.handleEvent = async function ({ api, event }) {
   const q = args.join(" "); 
 
 try {
-        const res = await axios.get("https://imran-status-api.onrender.com/status");
+        const res = await axios.get("http://103.119.102.216:25262/status");
         const data = res.data.data;
         const title = data.title;
         const url = data.url;
